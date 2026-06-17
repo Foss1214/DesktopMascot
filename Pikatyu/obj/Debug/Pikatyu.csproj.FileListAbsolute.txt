@@ -1,0 +1,3 @@
+C:\Users\18403\Downloads\Pikatyu\Pikatyu\obj\Debug\Pikatyu.csproj.AssemblyReference.cache
+C:\Users\18403\Downloads\Pikatyu\Pikatyu\obj\Debug\App.g.cs
+C:\Users\18403\Downloads\Pikatyu\Pikatyu\obj\Debug\Pikatyu_MarkupCompile.cache
