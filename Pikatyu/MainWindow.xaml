@@ -11,7 +11,7 @@
         ShowInTaskbar="False">
 
     <Grid>
-    <Image Name="MascotImage"
+        <Image Name="MascotImage"
                Width="128"
                Height="128"
                Stretch="Fill"/>
