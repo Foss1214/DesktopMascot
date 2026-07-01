@@ -1,3 +1,17 @@
 C:\Users\18403\Downloads\Pikatyu\Pikatyu\obj\Debug\Pikatyu.csproj.AssemblyReference.cache
 C:\Users\18403\Downloads\Pikatyu\Pikatyu\obj\Debug\App.g.cs
 C:\Users\18403\Downloads\Pikatyu\Pikatyu\obj\Debug\Pikatyu_MarkupCompile.cache
+C:\Users\18403\OneDrive\デスクトップ\Pikatyu\Pikatyu\bin\Debug\Pikatyu.exe.config
+C:\Users\18403\OneDrive\デスクトップ\Pikatyu\Pikatyu\bin\Debug\Pikatyu.exe
+C:\Users\18403\OneDrive\デスクトップ\Pikatyu\Pikatyu\bin\Debug\Pikatyu.pdb
+C:\Users\18403\OneDrive\デスクトップ\Pikatyu\Pikatyu\obj\Debug\Pikatyu.csproj.AssemblyReference.cache
+C:\Users\18403\OneDrive\デスクトップ\Pikatyu\Pikatyu\obj\Debug\MainWindow.baml
+C:\Users\18403\OneDrive\デスクトップ\Pikatyu\Pikatyu\obj\Debug\MainWindow.g.cs
+C:\Users\18403\OneDrive\デスクトップ\Pikatyu\Pikatyu\obj\Debug\App.g.cs
+C:\Users\18403\OneDrive\デスクトップ\Pikatyu\Pikatyu\obj\Debug\Pikatyu_MarkupCompile.cache
+C:\Users\18403\OneDrive\デスクトップ\Pikatyu\Pikatyu\obj\Debug\Pikatyu.g.resources
+C:\Users\18403\OneDrive\デスクトップ\Pikatyu\Pikatyu\obj\Debug\Pikatyu.Properties.Resources.resources
+C:\Users\18403\OneDrive\デスクトップ\Pikatyu\Pikatyu\obj\Debug\Pikatyu.csproj.GenerateResource.cache
+C:\Users\18403\OneDrive\デスクトップ\Pikatyu\Pikatyu\obj\Debug\Pikatyu.csproj.CoreCompileInputs.cache
+C:\Users\18403\OneDrive\デスクトップ\Pikatyu\Pikatyu\obj\Debug\Pikatyu.exe
+C:\Users\18403\OneDrive\デスクトップ\Pikatyu\Pikatyu\obj\Debug\Pikatyu.pdb

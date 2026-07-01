@@ -5,7 +5,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 using System.Windows.Forms;
 
-namespace pikatyu
+namespace Pikatyu
 {
     public partial class MainWindow : Window
     {
@@ -16,59 +16,58 @@ namespace pikatyu
 
         private DispatcherTimer animationTimer;
 
-        private Point lastMousePos;
+        private System.Windows.Point lastMousePos;
 
         public MainWindow()
         {
             InitializeComponent();
 
             idle = new BitmapImage(
-                new Uri("Assets/idle.png",
-                UriKind.Relative));
+                new Uri("Assets/idle.png", UriKind.Relative));
+
+            System.Windows.MessageBox.Show("idle読込成功");
+            System.Windows.MessageBox.Show(
+                $"幅:{idle.PixelWidth} 高さ:{idle.PixelHeight}");
 
             walkFrames = new BitmapImage[]
             {
                 new BitmapImage(
-                    new Uri("Assets/walk1.png",
-                    UriKind.Relative)),
-
+                    new Uri("Assets/walk1.png", UriKind.Relative)),
                 new BitmapImage(
-                    new Uri("Assets/walk2.png",
-                    UriKind.Relative)),
+                    new Uri("Assets/walk2.png", UriKind.Relative)),
                 new BitmapImage(
-                    new Uri("Assets/walk3.png",
-                    UriKind.Relative)),
+                    new Uri("Assets/walk3.png", UriKind.Relative)),
                 new BitmapImage(
-                    new Uri("Assets/walk4.png",
-                    UriKind.Relative))
+                    new Uri("Assets/walk4.png", UriKind.Relative))
             };
 
-            MascotImage.Source = idle;
+            MascotImage.Source = walkFrames[0];
 
             animationTimer = new DispatcherTimer();
             animationTimer.Interval =
                 TimeSpan.FromMilliseconds(120);
 
             animationTimer.Tick += AnimationTick;
-            animationTimer.Start();
+            //animationTimer.Start();
 
             lastMousePos =
-                new Point(
-                    Cursor.Position.X,
-                    Cursor.Position.Y);
+                new System.Windows.Point(
+                    System.Windows.Forms.Cursor.Position.X,
+                    System.Windows.Forms.Cursor.Position.Y);
+
         }
 
-        private void AnimationTIck(
+        private void AnimationTick(
             object sender,
             EventArgs e)
         {
-            Point mousePos =
-                new Point(
-                    Cursor.Position.X,
-                    Cursor.Position.Y);
+            System.Windows.Point mousePos =
+                new System.Windows.Point(
+                    System.Windows.Forms.Cursor.Position.X,
+                    System.Windows.Forms.Cursor.Position.Y);
 
-            double dex =
-                mousePos.X =
+            double dx =
+                mousePos.X -
                 lastMousePos.X;
 
             if (Math.Abs(dx) > 1)
@@ -103,5 +102,3 @@ namespace pikatyu
         }
     }
 }
-
-//aa

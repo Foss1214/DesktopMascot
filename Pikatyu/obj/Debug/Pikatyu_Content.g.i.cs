@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("walk4.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("aseets/idle.png")]
 
 
